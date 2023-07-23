@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.container{
+    margin: 0;
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    background-color: darkorchid;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+.main{
+    height: 550px;
+    background-color: azure;
+    display: flex;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 10px solid lightskyblue;
+}
+
+.box div{
+    width: 33.333%;
+    height: 33.333%;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box div:hover {
+    opacity: 0.7;
+}
